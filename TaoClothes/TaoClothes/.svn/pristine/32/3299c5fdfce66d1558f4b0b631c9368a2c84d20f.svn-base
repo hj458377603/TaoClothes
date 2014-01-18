@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="Goods" xmlns="http://ibatis.apache.org/mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <alias>
+    <!-- alias:取别名;assembly:表示类所在的文件;type:表示该类的完整的名称-->
+    <typeAlias alias="Goods"  type="TaoClothes.Entity.Goods,TaoClothes.Entity" />
+  </alias>
+
+  <resultMaps>
+
+    <resultMap id="FullTable" class="Goods">
+      <!-- property：类中的属性名; column：数据库中的列名，可以起别名-->
+      <result property="goods_id" column="goods_id" dbType="MEDIUMINT"/>
+      <result property="cat_id" column="cat_id" dbType="SMALLINT"/>
+      <result property="goods_sn" column="goods_sn" dbType="VARCHAR"/>
+      <result property="goods_name" column="goods_name" dbType="VARCHAR"/>
+      <result property="goods_name_style" column="goods_name_style" dbType="VARCHAR"/>
+      <result property="click_count" column="click_count" dbType="INT"/>
+      <result property="brand_id" column="brand_id" dbType="SMALLINT"/>
+      <result property="provider_name" column="provider_name" dbType="VARCHAR"/>
+      <result property="goods_number" column="goods_number" dbType="SMALLINT"/>
+      <result property="goods_weight" column="goods_weight" dbType="DECIMAL"/>
+      <result property="market_price" column="market_price" dbType="DECIMAL"/>
+      <result property="shop_price" column="shop_price" dbType="DECIMAL"/>
+      <result property="promote_price" column="promote_price" dbType="DECIMAL"/>
+      <result property="promote_start_date" column="promote_start_date" dbType="INT"/>
+      <result property="promote_end_date" column="promote_end_date" dbType="INT"/>
+      <result property="warn_number" column="warn_number" dbType="TINYINT"/>
+      <result property="keywords" column="keywords" dbType="VARCHAR"/>
+      <result property="goods_brief" column="goods_brief" dbType="VARCHAR"/>
+      <result property="goods_desc" column="goods_desc" dbType="TEXT"/>
+      <result property="goods_thumb" column="goods_thumb" dbType="VARCHAR"/>
+      <result property="goods_img" column="goods_img" dbType="VARCHAR"/>
+      <result property="original_img" column="original_img" dbType="VARCHAR"/>
+      <result property="is_real" column="is_real" dbType="TINYINT"/>
+      <result property="extension_code" column="extension_code" dbType="VARCHAR"/>
+      <result property="is_on_sale" column="is_on_sale" dbType="TINYINT"/>
+      <result property="is_alone_sale" column="is_alone_sale" dbType="TINYINT"/>
+      <result property="is_shipping" column="is_shipping" dbType="TINYINT"/>
+      <result property="integral" column="integral" dbType="INT"/>
+      <result property="add_time" column="add_time" dbType="INT"/>
+      <result property="sort_order" column="sort_order" dbType="SMALLINT"/>
+      <result property="is_delete" column="is_delete" dbType="TINYINT"/>
+      <result property="is_best" column="is_best" dbType="TINYINT"/>
+      <result property="is_new" column="is_new" dbType="TINYINT"/>
+      <result property="is_hot" column="is_hot" dbType="TINYINT"/>
+      <result property="is_promote" column="is_promote" dbType="TINYINT"/>
+      <result property="bonus_type_id" column="bonus_type_id" dbType="TINYINT"/>
+      <result property="last_update" column="last_update" dbType="INT"/>
+      <result property="goods_type" column="goods_type" dbType="SMALLINT"/>
+      <result property="seller_note" column="seller_note" dbType="VARCHAR"/>
+      <result property="give_integral" column="give_integral" dbType="INT"/>
+      <result property="rank_integral" column="rank_integral" dbType="INT"/>
+      <result property="suppliers_id" column="suppliers_id" dbType="SMALLINT"/>
+      <result property="is_check" column="is_check" dbType="TINYINT"/>
+    </resultMap>
+
+  </resultMaps>
+
+  <statements>
+
+    <select id="ecs_goods.SelectBygoods_id" parameterClass="Hashtable" resultMap="FullTable">
+      Select * From ecs_goods
+      Where goods_id=#goods_id#
+    </select>
+
+    <select id="ecs_goods.SelectPageListBygoods_id" parameterClass="int" resultMap="FullTable">
+      Select Top #PageSize# * From ecs_goods
+      Where goods_id
+      Not in (Select Top #PageSize# goods_id From ecs_goods)
+    </select>
+
+    <insert id="ecs_goods.Insert" parameterClass="Goods">
+      Insert Into ecs_goods(
+      goods_id,
+      cat_id,
+      goods_sn,
+      goods_name,
+      goods_name_style,
+      click_count,
+      brand_id,
+      provider_name,
+      goods_number,
+      goods_weight,
+      market_price,
+      shop_price,
+      promote_price,
+      promote_start_date,
+      promote_end_date,
+      warn_number,
+      keywords,
+      goods_brief,
+      goods_desc,
+      goods_thumb,
+      goods_img,
+      original_img,
+      is_real,
+      extension_code,
+      is_on_sale,
+      is_alone_sale,
+      is_shipping,
+      integral,
+      add_time,
+      sort_order,
+      is_delete,
+      is_best,
+      is_new,
+      is_hot,
+      is_promote,
+      bonus_type_id,
+      last_update,
+      goods_type,
+      seller_note,
+      give_integral,
+      rank_integral,
+      suppliers_id,
+      is_check
+      )
+      Values(
+      #goods_id#,
+      #cat_id#,
+      #goods_sn#,
+      #goods_name#,
+      #goods_name_style#,
+      #click_count#,
+      #brand_id#,
+      #provider_name#,
+      #goods_number#,
+      #goods_weight#,
+      #market_price#,
+      #shop_price#,
+      #promote_price#,
+      #promote_start_date#,
+      #promote_end_date#,
+      #warn_number#,
+      #keywords#,
+      #goods_brief#,
+      #goods_desc#,
+      #goods_thumb#,
+      #goods_img#,
+      #original_img#,
+      #is_real#,
+      #extension_code#,
+      #is_on_sale#,
+      #is_alone_sale#,
+      #is_shipping#,
+      #integral#,
+      #add_time#,
+      #sort_order#,
+      #is_delete#,
+      #is_best#,
+      #is_new#,
+      #is_hot#,
+      #is_promote#,
+      #bonus_type_id#,
+      #last_update#,
+      #goods_type#,
+      #seller_note#,
+      #give_integral#,
+      #rank_integral#,
+      #suppliers_id#,
+      #is_check#
+      )
+    </insert>
+
+    <update id="ecs_goods.UpdateBygoods_id" parameterClass="Goods">
+      Update ecs_goods Set
+      <dynamic prepend="Set">
+        <isParameterPresent>
+          <isNotNull property="goods_id">
+            goods_id=#goods_id#,
+          </isNotNull>
+          <isNotNull property="cat_id">
+            cat_id=#cat_id#,
+          </isNotNull>
+          <isNotNull property="goods_sn">
+            goods_sn=#goods_sn#,
+          </isNotNull>
+          <isNotNull property="goods_name">
+            goods_name=#goods_name#,
+          </isNotNull>
+          <isNotNull property="goods_name_style">
+            goods_name_style=#goods_name_style#,
+          </isNotNull>
+          <isNotNull property="click_count">
+            click_count=#click_count#,
+          </isNotNull>
+          <isNotNull property="brand_id">
+            brand_id=#brand_id#,
+          </isNotNull>
+          <isNotNull property="provider_name">
+            provider_name=#provider_name#,
+          </isNotNull>
+          <isNotNull property="goods_number">
+            goods_number=#goods_number#,
+          </isNotNull>
+          <isNotNull property="goods_weight">
+            goods_weight=#goods_weight#,
+          </isNotNull>
+          <isNotNull property="market_price">
+            market_price=#market_price#,
+          </isNotNull>
+          <isNotNull property="shop_price">
+            shop_price=#shop_price#,
+          </isNotNull>
+          <isNotNull property="promote_price">
+            promote_price=#promote_price#,
+          </isNotNull>
+          <isNotNull property="promote_start_date">
+            promote_start_date=#promote_start_date#,
+          </isNotNull>
+          <isNotNull property="promote_end_date">
+            promote_end_date=#promote_end_date#,
+          </isNotNull>
+          <isNotNull property="warn_number">
+            warn_number=#warn_number#,
+          </isNotNull>
+          <isNotNull property="keywords">
+            keywords=#keywords#,
+          </isNotNull>
+          <isNotNull property="goods_brief">
+            goods_brief=#goods_brief#,
+          </isNotNull>
+          <isNotNull property="goods_desc">
+            goods_desc=#goods_desc#,
+          </isNotNull>
+          <isNotNull property="goods_thumb">
+            goods_thumb=#goods_thumb#,
+          </isNotNull>
+          <isNotNull property="goods_img">
+            goods_img=#goods_img#,
+          </isNotNull>
+          <isNotNull property="original_img">
+            original_img=#original_img#,
+          </isNotNull>
+          <isNotNull property="is_real">
+            is_real=#is_real#,
+          </isNotNull>
+          <isNotNull property="extension_code">
+            extension_code=#extension_code#,
+          </isNotNull>
+          <isNotNull property="is_on_sale">
+            is_on_sale=#is_on_sale#,
+          </isNotNull>
+          <isNotNull property="is_alone_sale">
+            is_alone_sale=#is_alone_sale#,
+          </isNotNull>
+          <isNotNull property="is_shipping">
+            is_shipping=#is_shipping#,
+          </isNotNull>
+          <isNotNull property="integral">
+            integral=#integral#,
+          </isNotNull>
+          <isNotNull property="add_time">
+            add_time=#add_time#,
+          </isNotNull>
+          <isNotNull property="sort_order">
+            sort_order=#sort_order#,
+          </isNotNull>
+          <isNotNull property="is_delete">
+            is_delete=#is_delete#,
+          </isNotNull>
+          <isNotNull property="is_best">
+            is_best=#is_best#,
+          </isNotNull>
+          <isNotNull property="is_new">
+            is_new=#is_new#,
+          </isNotNull>
+          <isNotNull property="is_hot">
+            is_hot=#is_hot#,
+          </isNotNull>
+          <isNotNull property="is_promote">
+            is_promote=#is_promote#,
+          </isNotNull>
+          <isNotNull property="bonus_type_id">
+            bonus_type_id=#bonus_type_id#,
+          </isNotNull>
+          <isNotNull property="last_update">
+            last_update=#last_update#,
+          </isNotNull>
+          <isNotNull property="goods_type">
+            goods_type=#goods_type#,
+          </isNotNull>
+          <isNotNull property="seller_note">
+            seller_note=#seller_note#,
+          </isNotNull>
+          <isNotNull property="give_integral">
+            give_integral=#give_integral#,
+          </isNotNull>
+          <isNotNull property="rank_integral">
+            rank_integral=#rank_integral#,
+          </isNotNull>
+          <isNotNull property="suppliers_id">
+            suppliers_id=#suppliers_id#,
+          </isNotNull>
+          <isNotNull property="is_check">
+            is_check=#is_check#
+          </isNotNull>
+        </isParameterPresent>
+      </dynamic>
+      Where goods_id=#goods_id#
+    </update>
+
+    <delete id="ecs_goods.DeleteBygoods_id" parameterClass="Goods">
+      Delete * From ecs_goods
+      Where goods_id=#goods_id#
+    </delete>
+  </statements>
+</sqlMap>
+
+
+

@@ -1,0 +1,18 @@
+F:\VS2012 Projects\TaoClothes\TaoClothes.DAL\bin\Debug\TaoClothes.DAL.dll
+F:\VS2012 Projects\TaoClothes\TaoClothes.DAL\bin\Debug\TaoClothes.DAL.pdb
+F:\VS2012 Projects\TaoClothes\TaoClothes.DAL\obj\Debug\TaoClothes.DAL.csprojResolveAssemblyReference.cache
+F:\VS2012 Projects\TaoClothes\TaoClothes.DAL\obj\Debug\TaoClothes.DAL.dll
+F:\VS2012 Projects\TaoClothes\TaoClothes.DAL\obj\Debug\TaoClothes.DAL.pdb
+F:\VS2012 Projects\TaoClothes\TaoClothes.DAL\bin\Debug\TaoClothes.Entity.dll
+F:\VS2012 Projects\TaoClothes\TaoClothes.DAL\bin\Debug\TaoClothes.Entity.pdb
+F:\VS2012 Projects\TaoClothes\TaoClothes.DAL\bin\Debug\IBatisNet.Common.xml
+F:\VS2012 Projects\TaoClothes\TaoClothes.DAL\bin\Debug\IBatisNet.DataMapper.xml
+D:\TaoClothes\TaoClothes\TaoClothes.DAL\bin\Debug\TaoClothes.DAL.dll
+D:\TaoClothes\TaoClothes\TaoClothes.DAL\bin\Debug\TaoClothes.DAL.pdb
+D:\TaoClothes\TaoClothes\TaoClothes.DAL\bin\Debug\TaoClothes.Entity.dll
+D:\TaoClothes\TaoClothes\TaoClothes.DAL\bin\Debug\TaoClothes.Entity.pdb
+D:\TaoClothes\TaoClothes\TaoClothes.DAL\bin\Debug\IBatisNet.Common.xml
+D:\TaoClothes\TaoClothes\TaoClothes.DAL\bin\Debug\IBatisNet.DataMapper.xml
+D:\TaoClothes\TaoClothes\TaoClothes.DAL\obj\Debug\TaoClothes.DAL.csprojResolveAssemblyReference.cache
+D:\TaoClothes\TaoClothes\TaoClothes.DAL\obj\Debug\TaoClothes.DAL.dll
+D:\TaoClothes\TaoClothes\TaoClothes.DAL\obj\Debug\TaoClothes.DAL.pdb

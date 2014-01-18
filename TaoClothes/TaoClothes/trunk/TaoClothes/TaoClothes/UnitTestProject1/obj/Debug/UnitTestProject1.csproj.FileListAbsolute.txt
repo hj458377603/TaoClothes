@@ -1,0 +1,7 @@
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\bin\Debug\TaoClothes.Service.dll
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\bin\Debug\TaoClothes.Service.pdb
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

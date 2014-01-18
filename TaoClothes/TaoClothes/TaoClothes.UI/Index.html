@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="../css/default.css" rel="stylesheet" />
+    <script src="js/jquery-1.7.1.js"></script>
+    <title>商品详情页</title>
+</head>
+<body>
+    <div id="header">
+        商品详情页
+    </div>
+
+    <div id="main">
+        <div id="product-section">
+            <div id="product-img">
+                <img src="img/p1.jpg" alt="商品名称" />
+            </div>
+            <div id="product-summary">
+                [包邮][MERCURY] 水星U3 随身WiFi 150M迷你 路由器 兼容性强 一流厂商 隐形设计 超迷你 一键安装 方便快捷 送8元天猫官方远程设置（每个ID限购5件）
+            </div>
+            <div id="product-price">
+                <div id="old-price">
+                    <del>原价：¥298.00</del>
+                </div>
+                <div id="promotion-price">
+                    <b>促销价</b>：<span>¥238.00</span>
+                </div>
+            </div>
+            <div id="store">
+                库存：<span>20</span>
+            </div>
+            <div id="color">
+                <span>颜色：</span>
+                <a class="selectItem">红色</a>
+                <a class="selectedItem">绿色</a>
+                <a class="selectItem">黄色</a>
+            </div>
+            <div id="size">
+                <span>尺寸：</span>
+                <a class="selectedItem">M</a>
+                <a class="selectItem">L</a>
+                <a class="selectItem">XL</a>
+                <a class="selectItem">XXL</a>
+            </div>
+            <div id="buy">
+                <a href="javascript:void(0)">立即购买</a>
+            </div>
+            <div id="description">
+                <a id="descriptionTitle" href="javascript:void(0)">点击查看商品详情</a>
+                <div id="descriptionContent"></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/ecmascript">
+        $("#color a").each(function (index, item) {
+            item.onclick = function () {
+                $("#color .selectedItem").each(function (index, selectedItem) {
+                    selectedItem.className = "selectItem";
+                });
+                item.className = "selectedItem";
+            }
+        });
+
+        $("#size a").each(function (index, item) {
+            item.onclick = function () {
+                $("#size .selectedItem").each(function (index, selectedItem) {
+                    selectedItem.className = "selectItem";
+                });
+                item.className = "selectedItem";
+            }
+        });
+    </script>
+</body>
+</html>

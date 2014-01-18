@@ -1,0 +1,10 @@
+F:\VS2012 Projects\TaoClothes\TaoClothes.Common\bin\Debug\TaoClothes.Common.dll
+F:\VS2012 Projects\TaoClothes\TaoClothes.Common\bin\Debug\TaoClothes.Common.pdb
+F:\VS2012 Projects\TaoClothes\TaoClothes.Common\obj\Debug\TaoClothes.Common.csprojResolveAssemblyReference.cache
+F:\VS2012 Projects\TaoClothes\TaoClothes.Common\obj\Debug\TaoClothes.Common.dll
+F:\VS2012 Projects\TaoClothes\TaoClothes.Common\obj\Debug\TaoClothes.Common.pdb
+D:\TaoClothes\TaoClothes\TaoClothes.Common\bin\Debug\TaoClothes.Common.dll
+D:\TaoClothes\TaoClothes\TaoClothes.Common\bin\Debug\TaoClothes.Common.pdb
+D:\TaoClothes\TaoClothes\TaoClothes.Common\obj\Debug\TaoClothes.Common.csprojResolveAssemblyReference.cache
+D:\TaoClothes\TaoClothes\TaoClothes.Common\obj\Debug\TaoClothes.Common.dll
+D:\TaoClothes\TaoClothes\TaoClothes.Common\obj\Debug\TaoClothes.Common.pdb
