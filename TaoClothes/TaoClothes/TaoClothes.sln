@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaoClothes.Entity", "TaoClothes.Entity\TaoClothes.Entity.csproj", "{CC8783C2-3763-4936-999F-FDC2D79842B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaoClothes.Common", "TaoClothes.Common\TaoClothes.Common.csproj", "{CA8CEBE9-A12D-4743-AAEA-52FD79D0412C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaoClothes.DAL", "TaoClothes.DAL\TaoClothes.DAL.csproj", "{0BD9FDD7-8CC1-48EC-A017-7DD701680EEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaoClothes.BLL", "TaoClothes.BLL\TaoClothes.BLL.csproj", "{23313E75-5ABE-4022-B20F-2F2A5E78ADB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaoClothes.Service", "TaoClothes.Service\TaoClothes.Service.csproj", "{4D890A9A-D241-428E-8FD7-FDFC51087977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaoClothes.UnitTest", "UnitTestProject1\TaoClothes.UnitTest.csproj", "{F96151E8-D945-42CE-B1A9-5831F97508F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaoClothes.UI", "TaoClothes.UI\TaoClothes.UI.csproj", "{377F40D1-49D5-457A-9725-BC893631BDED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC8783C2-3763-4936-999F-FDC2D79842B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8783C2-3763-4936-999F-FDC2D79842B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8783C2-3763-4936-999F-FDC2D79842B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8783C2-3763-4936-999F-FDC2D79842B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA8CEBE9-A12D-4743-AAEA-52FD79D0412C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA8CEBE9-A12D-4743-AAEA-52FD79D0412C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA8CEBE9-A12D-4743-AAEA-52FD79D0412C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA8CEBE9-A12D-4743-AAEA-52FD79D0412C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BD9FDD7-8CC1-48EC-A017-7DD701680EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD9FDD7-8CC1-48EC-A017-7DD701680EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD9FDD7-8CC1-48EC-A017-7DD701680EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD9FDD7-8CC1-48EC-A017-7DD701680EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23313E75-5ABE-4022-B20F-2F2A5E78ADB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23313E75-5ABE-4022-B20F-2F2A5E78ADB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23313E75-5ABE-4022-B20F-2F2A5E78ADB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23313E75-5ABE-4022-B20F-2F2A5E78ADB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D890A9A-D241-428E-8FD7-FDFC51087977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D890A9A-D241-428E-8FD7-FDFC51087977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D890A9A-D241-428E-8FD7-FDFC51087977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D890A9A-D241-428E-8FD7-FDFC51087977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F96151E8-D945-42CE-B1A9-5831F97508F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96151E8-D945-42CE-B1A9-5831F97508F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96151E8-D945-42CE-B1A9-5831F97508F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96151E8-D945-42CE-B1A9-5831F97508F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{377F40D1-49D5-457A-9725-BC893631BDED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{377F40D1-49D5-457A-9725-BC893631BDED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{377F40D1-49D5-457A-9725-BC893631BDED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{377F40D1-49D5-457A-9725-BC893631BDED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

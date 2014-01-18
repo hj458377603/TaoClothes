@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="GoodsAttr" xmlns="http://ibatis.apache.org/mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <alias>
+    <!-- alias:取别名;assembly:表示类所在的文件;type:表示该类的完整的名称-->
+    <typeAlias alias="GoodsAttr"  type="TaoClothes.Entity.GoodsAttr" />
+  </alias>
+
+  <resultMaps>
+
+    <resultMap id="FullTable" class="GoodsAttr">
+      <!-- property：类中的属性名; column：数据库中的列名，可以起别名-->
+      <result property="goods_attr_id" column="goods_attr_id" dbType="INT"/>
+      <result property="goods_id" column="goods_id" dbType="MEDIUMINT"/>
+      <result property="attr_id" column="attr_id" dbType="SMALLINT"/>
+      <result property="attr_value" column="attr_value" dbType="TEXT"/>
+      <result property="attr_price" column="attr_price" dbType="VARCHAR"/>
+    </resultMap>
+
+  </resultMaps>
+
+  <statements>
+
+    <select id="ecs_goods_attr.SelectBygoods_id" parameterClass="Hashtable" resultMap="FullTable">
+      Select * From ecs_goods_attr
+      Where goods_id=#goods_id#
+    </select>
+
+    <select id="ecs_goods_attr.SelectPageListBygoods_attr_id" parameterClass="UInt32" resultMap="FullTable">
+      Select Top #PageSize# * From ecs_goods_attr
+      Where goods_attr_id
+      Not in (Select Top #PageSize# goods_attr_id From ecs_goods_attr)
+    </select>
+
+    <insert id="ecs_goods_attr.Insert" parameterClass="GoodsAttr">
+      Insert Into ecs_goods_attr(
+      goods_attr_id,
+      goods_id,
+      attr_id,
+      attr_value,
+      attr_price
+      )
+      Values(
+      #goods_attr_id#,
+      #goods_id#,
+      #attr_id#,
+      #attr_value#,
+      #attr_price#
+      )
+    </insert>
+
+    <update id="ecs_goods_attr.UpdateBygoods_attr_id" parameterClass="GoodsAttr">
+      Update ecs_goods_attr Set
+      <dynamic prepend="Set">
+        <isParameterPresent>
+          <isNotNull property="goods_attr_id">
+            goods_attr_id=#goods_attr_id#,
+          </isNotNull>
+          <isNotNull property="goods_id">
+            goods_id=#goods_id#,
+          </isNotNull>
+          <isNotNull property="attr_id">
+            attr_id=#attr_id#,
+          </isNotNull>
+          <isNotNull property="attr_value">
+            attr_value=#attr_value#,
+          </isNotNull>
+          <isNotNull property="attr_price">
+            attr_price=#attr_price#
+          </isNotNull>
+        </isParameterPresent>
+      </dynamic>
+      Where goods_attr_id=#goods_attr_id#
+    </update>
+
+    <delete id="ecs_goods_attr.DeleteBygoods_attr_id" parameterClass="GoodsAttr">
+      Delete * From ecs_goods_attr
+      Where goods_attr_id=#goods_attr_id#
+    </delete>
+  </statements>
+</sqlMap>
+
+
+

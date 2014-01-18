@@ -1,0 +1,38 @@
+F:\VS2012 Projects\TaoClothes\TaoClothes.UI\bin\Maps\Goods.xml
+F:\VS2012 Projects\TaoClothes\TaoClothes.UI\bin\Maps\GoodsAttr.xml
+F:\VS2012 Projects\TaoClothes\TaoClothes.UI\bin\providers.config
+F:\VS2012 Projects\TaoClothes\TaoClothes.UI\bin\SqlMap.config
+F:\VS2012 Projects\TaoClothes\TaoClothes.UI\bin\TaoClothes.UI.dll
+F:\VS2012 Projects\TaoClothes\TaoClothes.UI\bin\TaoClothes.UI.pdb
+F:\VS2012 Projects\TaoClothes\TaoClothes.UI\obj\Debug\TaoClothes.UI.dll
+F:\VS2012 Projects\TaoClothes\TaoClothes.UI\obj\Debug\TaoClothes.UI.pdb
+F:\VS2012 Projects\TaoClothes\TaoClothes.UI\bin\MySql.Data.dll
+F:\VS2012 Projects\TaoClothes\TaoClothes.UI\bin\TaoClothes.DAL.dll
+F:\VS2012 Projects\TaoClothes\TaoClothes.UI\bin\TaoClothes.Entity.dll
+F:\VS2012 Projects\TaoClothes\TaoClothes.UI\bin\IBatisNet.DataMapper.dll
+F:\VS2012 Projects\TaoClothes\TaoClothes.UI\bin\IBatisNet.Common.dll
+F:\VS2012 Projects\TaoClothes\TaoClothes.UI\bin\TaoClothes.DAL.pdb
+F:\VS2012 Projects\TaoClothes\TaoClothes.UI\bin\TaoClothes.Entity.pdb
+F:\VS2012 Projects\TaoClothes\TaoClothes.UI\bin\IBatisNet.DataMapper.xml
+F:\VS2012 Projects\TaoClothes\TaoClothes.UI\bin\IBatisNet.Common.xml
+F:\VS2012 Projects\TaoClothes\TaoClothes.UI\obj\Debug\TaoClothes.UI.csprojResolveAssemblyReference.cache
+D:\TaoClothes\TaoClothes\TaoClothes.UI\bin\Maps\Goods.xml
+D:\TaoClothes\TaoClothes\TaoClothes.UI\bin\Maps\GoodsAttr.xml
+D:\TaoClothes\TaoClothes\TaoClothes.UI\bin\providers.config
+D:\TaoClothes\TaoClothes\TaoClothes.UI\bin\SqlMap.config
+D:\TaoClothes\TaoClothes\TaoClothes.UI\bin\TaoClothes.UI.dll
+D:\TaoClothes\TaoClothes\TaoClothes.UI\bin\TaoClothes.UI.pdb
+D:\TaoClothes\TaoClothes\TaoClothes.UI\bin\MySql.Data.dll
+D:\TaoClothes\TaoClothes\TaoClothes.UI\bin\TaoClothes.DAL.dll
+D:\TaoClothes\TaoClothes\TaoClothes.UI\bin\TaoClothes.Entity.dll
+D:\TaoClothes\TaoClothes\TaoClothes.UI\bin\IBatisNet.DataMapper.dll
+D:\TaoClothes\TaoClothes\TaoClothes.UI\bin\IBatisNet.Common.dll
+D:\TaoClothes\TaoClothes\TaoClothes.UI\bin\TaoClothes.DAL.pdb
+D:\TaoClothes\TaoClothes\TaoClothes.UI\bin\TaoClothes.Entity.pdb
+D:\TaoClothes\TaoClothes\TaoClothes.UI\bin\IBatisNet.DataMapper.xml
+D:\TaoClothes\TaoClothes\TaoClothes.UI\bin\IBatisNet.Common.xml
+D:\TaoClothes\TaoClothes\TaoClothes.UI\obj\Debug\TaoClothes.UI.csprojResolveAssemblyReference.cache
+D:\TaoClothes\TaoClothes\TaoClothes.UI\obj\Debug\TaoClothes.UI.dll
+D:\TaoClothes\TaoClothes\TaoClothes.UI\obj\Debug\TaoClothes.UI.pdb
+D:\TaoClothes\TaoClothes\TaoClothes.UI\bin\TaoClothes.Service.dll
+D:\TaoClothes\TaoClothes\TaoClothes.UI\bin\TaoClothes.Service.pdb

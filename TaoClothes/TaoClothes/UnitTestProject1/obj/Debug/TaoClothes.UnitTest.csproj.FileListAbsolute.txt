@@ -1,0 +1,40 @@
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\bin\Debug\TaoClothes.Service.dll
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\bin\Debug\TaoClothes.Service.pdb
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\obj\Debug\TaoClothes.UnitTest.csprojResolveAssemblyReference.cache
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\bin\Debug\TaoClothes.DAL.dll
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\bin\Debug\TaoClothes.Entity.dll
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\bin\Debug\IBatisNet.DataMapper.dll
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\bin\Debug\IBatisNet.Common.dll
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\bin\Debug\TaoClothes.DAL.pdb
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\bin\Debug\TaoClothes.Entity.pdb
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\bin\Debug\IBatisNet.DataMapper.xml
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\bin\Debug\IBatisNet.Common.xml
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\bin\Debug\SqlMap.config
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\bin\Debug\providers.config
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\bin\Debug\MySql.Data.dll
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\bin\Debug\Maps\Goods.xml
+F:\VS2012 Projects\TaoClothes\UnitTestProject1\bin\Debug\Maps\GoodsAttr.xml
+D:\TaoClothes\TaoClothes\UnitTestProject1\bin\Debug\Maps\Goods.xml
+D:\TaoClothes\TaoClothes\UnitTestProject1\bin\Debug\Maps\GoodsAttr.xml
+D:\TaoClothes\TaoClothes\UnitTestProject1\bin\Debug\SqlMap.config
+D:\TaoClothes\TaoClothes\UnitTestProject1\bin\Debug\providers.config
+D:\TaoClothes\TaoClothes\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+D:\TaoClothes\TaoClothes\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+D:\TaoClothes\TaoClothes\UnitTestProject1\bin\Debug\MySql.Data.dll
+D:\TaoClothes\TaoClothes\UnitTestProject1\bin\Debug\TaoClothes.DAL.dll
+D:\TaoClothes\TaoClothes\UnitTestProject1\bin\Debug\TaoClothes.Entity.dll
+D:\TaoClothes\TaoClothes\UnitTestProject1\bin\Debug\TaoClothes.Service.dll
+D:\TaoClothes\TaoClothes\UnitTestProject1\bin\Debug\IBatisNet.DataMapper.dll
+D:\TaoClothes\TaoClothes\UnitTestProject1\bin\Debug\IBatisNet.Common.dll
+D:\TaoClothes\TaoClothes\UnitTestProject1\bin\Debug\TaoClothes.DAL.pdb
+D:\TaoClothes\TaoClothes\UnitTestProject1\bin\Debug\TaoClothes.Entity.pdb
+D:\TaoClothes\TaoClothes\UnitTestProject1\bin\Debug\TaoClothes.Service.pdb
+D:\TaoClothes\TaoClothes\UnitTestProject1\bin\Debug\IBatisNet.DataMapper.xml
+D:\TaoClothes\TaoClothes\UnitTestProject1\bin\Debug\IBatisNet.Common.xml
+D:\TaoClothes\TaoClothes\UnitTestProject1\obj\Debug\TaoClothes.UnitTest.csprojResolveAssemblyReference.cache
+D:\TaoClothes\TaoClothes\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+D:\TaoClothes\TaoClothes\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

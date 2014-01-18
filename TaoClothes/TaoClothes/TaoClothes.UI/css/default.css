@@ -1,0 +1,114 @@
+﻿html, body, head {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+
+body {
+    background-color: #efefef;
+    color: #333;
+}
+
+#header {
+    padding: 2% 0;
+    background-color: rgb(255, 150, 0);
+    color: white;
+    text-align: center;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.5);
+    box-shadow: 0 2px 4px rgba(0,0,0,.5);
+    font-size: 20px;
+}
+
+/** 商品详情**/
+#main {
+    padding: 2%;
+    margin-top: 1%;
+    width: 96%;
+}
+
+#product-section {
+    width: 100%;
+}
+
+#product-img {
+    margin: auto;
+    width: 50%;
+}
+
+    #product-img img {
+        width: 100%;
+        -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.5);
+        box-shadow: 0 2px 4px rgba(0,0,0,.5);
+    }
+
+#product-summary, #product-price, #store, #color {
+    margin-top: 6px;
+}
+
+#product-price, #store, #color {
+    padding-top: 6px;
+    border-top: 1px dashed black;
+}
+
+#promotion-price span {
+    font-size: 18px;
+    color: rgb(255, 102, 0);
+    font-weight: bold;
+}
+
+#store span {
+    color: rgb(255, 102, 0);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.selectItem {
+    display: inline-block;
+    border: 1px solid #ceced0;
+    background-color: #fafafa;
+    min-width: 2em;
+    padding: .5em 0.6em;
+    margin: 0 .5em .5em 0;
+    max-width: 100%;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: .05rem;
+    border-radius: .05rem;
+    cursor: pointer;
+}
+
+.selectedItem {
+    display: inline-block;
+    border: 1px solid rgb(255, 102, 0);
+    min-width: 2em;
+    padding: .5em 0.6em;
+    margin: 0 .5em .5em 0;
+    max-width: 100%;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: .05rem;
+    border-radius: .05rem;
+    background: url("/img/selected.png") no-repeat right bottom #fafafa;
+    cursor: pointer;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.5);
+    box-shadow: 0 2px 4px rgba(0,0,0,.5);
+}
+
+#description, #buy {
+    margin-top: 2%;
+    background: -webkit-gradient(linear,0 0,0 100%,from(rgb(255, 102, 0)),to(rgb(255, 90, 0)));
+    background: -moz-linear-gradient(top, rgb(255, 102, 0),rgb(255, 90, 0));
+    color: white;
+    text-align: center;
+    padding: 2%;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+    #descriptionTitle, #buy a {
+        width: 100%;
+        color: white;
+        text-decoration: none;
+    }
